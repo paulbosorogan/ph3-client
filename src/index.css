@@ -1,3 +1,7 @@
+.App h1{
+  font-size: 100px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +14,77 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.App {
+  text-align: center;
+}
+.App-header {
+  background-image: url(https://i.imgur.com/1zjnztK.jpg);
+  background-size: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(18px + 2vmin);
+  color: white;
+  text-shadow: 2px 2px 8px black;
+}
+.login-container h1 {
+  color: rgb(224, 136, 149);
+}
+.login-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-image: linear-gradient(79deg, #e6e6a8, #fcedfc 48%, #ebf6ff);
+  background-size: 100%
+}
+
+.login-form {
+  margin-top: 100px;
+  margin: auto;
+  background: #fafbf9;
+  max-width: 350px;
+  padding: 10px;
+  border-radius: 4px;
+  display: grid;
+
+}
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+}
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+.login-bttn {
+  width: 100px;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  background: #a67ea6;
+  color: white;
+  font-size: 20px;
+  justify-self: center;
+  border: none;
+  border-radius: 10px;
+
+}
+
+/* navigation  */
+
+.active {
+  background-color: #a67ea6;
+}
+
+nav a {
+  font-size: 1.2rem;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
