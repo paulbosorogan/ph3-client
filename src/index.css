@@ -30,61 +30,185 @@ code {
   color: white;
   text-shadow: 2px 2px 8px black;
 }
-.login-container h1 {
-  color: rgb(224, 136, 149);
-}
-.login-container {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  background-image: linear-gradient(79deg, #e6e6a8, #fcedfc 48%, #ebf6ff);
-  background-size: 100%
-}
-
-.login-form {
-  margin-top: 100px;
-  margin: auto;
-  background: #fafbf9;
-  max-width: 350px;
-  padding: 10px;
-  border-radius: 4px;
-  display: grid;
-
-}
-label {
-  text-align: left;
-  padding: 0.25rem 0;
-}
-input {
-  margin: 0.5rem 0;
-  padding: 1rem;
-  border: none;
-  border-radius: 10px;
-}
-.login-bttn {
-  width: 100px;
-  padding: 10px;
-  margin: 10px 0;
-  border: none;
-  background: #a67ea6;
-  color: white;
-  font-size: 20px;
-  justify-self: center;
-  border: none;
-  border-radius: 10px;
-
-}
 
 /* navigation  */
 
 .active {
-  background-color: #a67ea6;
+  background-color: #6c1044;
+  border-radius: 10px;
 }
 
 nav a {
-  font-size: 1.2rem;
+  margin-left: 1rem;
+  font-size: 0.9rem;
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+/* book */
+.book {
+  text-align: center;
+}
+/* new book form */
+.new-book-container {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #520c34;
+}
+.new-book-container h1 {
+  color: #efefe4;
+}
+.new-book-form {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+  color:#f5f5ef
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 10px;
+}
+input[type=text]{
+  color:rgb(18, 17, 18)
+}
+input[type=submit] {
+  border: none;
+  background-image: linear-gradient(to right, #f4854a,#e57e56);
+  padding: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #f6eef7;
+  margin-top: 30px;
+}
+
+/* plant card */
+.wrapper {
+  background-color: rgb(78, 9, 53);
+}
+
+.book-list {
+  margin-top: 5.5%;
+}
+.book-list h1 {
+  /* font-size: 30px;*/
+  width: 100%; 
+  color: #efefe4;
+  /* align-items: center; */
+  /* margin-top: 11%; */
+  margin-left: 6%; 
+  
+}
+
+/* book card */
+
+.book-card {
+  margin: auto;
+  background-image: linear-gradient(to right, #f4854a,#e57e56);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-width: 390px;
+  border-radius: 15px;
+  margin-bottom: 5%;
+  margin-top: 2%;
+  margin-left: 3rem;
+  box-sizing: border-box;
+  width: 50%;
+  float: left;
+  padding: 5px;
+}
+.book-info h4 {
+  margin-left: 0%;
+}
+
+.book-info {
+  margin-left: 14%;
+}
+img {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 350px;
+  max-width: 200px;
+  border-radius: 15px;
+  
+}
+.book-detail-container {
+  background-color: #ddd7d3;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(18px + 2vmin);
+  color: white;
+  text-shadow: 2px 2px 8px black;
+}
+.book-detail-card {
+  margin-top: 8%;
+  background-image: linear-gradient(to right, #f4854a,#e57e56);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-width: 350px;
+  border-radius: 15px;
+  margin-bottom: 5%;
+  margin-left: 3rem;
+  box-sizing: border-box;
+  width: 50%;
+  float: left;
+  padding: 5px;
+}
+.book-detail-card h3 {
+  margin-left: 3%;
+}
+.detail-info {
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-bottom: 3%;
+  background-color: #fefefe;
+  border-radius: 15px;
+  padding: 1px;
+}
+.detail-info p {
+  margin-top: 3%;
+  margin-left: 3%;
+}
+.bttn {
+  border-radius: 5px;
+  background-color: #dbcab8;
+  display: inline-block;
+  padding: 5px 8px;
+  text-align: center;
+}
+.edit-input {
+  color: black;
+}
+.trash-bttn {
+  margin-left: 75%;
+  margin-bottom: 10%;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 10px 16px;
+  text-align: center;
+  border: none;
+}
+.edit-bttn {
+  margin-left: 80%;
+  margin-bottom: 5%;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 10px 16px;
+  text-align: center;
+  border: none;
 }
