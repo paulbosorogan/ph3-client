@@ -4,9 +4,10 @@ function Home(){
     return(
     <div className="App">
         <header className="App-header">
-        <h1><b>book club</b></h1>
+        <h1><b>in my reader's opinion</b></h1>
           <div className='container'>
-            <p class="font-effect-fire">"Because reading is what? Fundamental"</p><p><em>RuPaul</em></p>
+            <p>the application that let's you review the books you've read</p>
+            <p><b>'Because reading is what? Fundamental'</b></p><em>RuPaul</em>
             
           </div>
         </header>
