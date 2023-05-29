@@ -1,13 +1,11 @@
 import React from "react";
 
-function Review({review}){
+function Review({review, onEdit}){
     return(
-        <div>
-            <h1>{review.user}</h1>
-            <p>Score:{review.score}</p>
-            <p>{review.comment}</p>
-
-        </div>
+        <div key={review.id} className="detail-info">
+          <p><b>Thoughts:</b> {review.comment}</p>
+           <button onClick={onEdit} className="edit-bttn"><span role="img" aria-label="edit">✏️</span></button>
+          </div>
     )
 }
 
