@@ -117,7 +117,7 @@ input[type=submit] {
   margin: auto;
   background-image: linear-gradient(to right, #f4854a,#e57e56);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  max-width: 390px;
+  max-width: 370px;
   border-radius: 15px;
   margin-bottom: 5%;
   margin-top: 2%;
