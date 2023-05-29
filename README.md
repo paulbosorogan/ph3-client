@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Phase 3 Project Client-Side - 'in my reader's opinion' 
+This is a book review SPA. The user is able to upload books and review them.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Application Instructions
 
-## Available Scripts
+Navigate to the directory from your terminal and `git copy` the repo from GitHub.
+Open the file (code .)
+Run the command `npm install` in the terminal to install all node modules.
 
 In the project directory, you can run:
+`npm start`
+Runs the app in the development mode.
+If not opened automatically, please head to your browser and open http://localhost:3000.
 
-### `npm start`
+##
+Attention, run the server first in order to have the data displayed on the React app. Backend information and instructions press [here](https://github.com/paulbosorogan/ph3-server)
+##
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Once the application is up and running you must be able to see the homepage http://localhost:3000/. The navigation bar contains 3 routes: Home, Books and Add New Book. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Home component contains the information regarding the application plus a quote from RuPaul. 
+- Books component (http://localhost:3000/books) contains cards with book information and a 'See details' link that will open an individual card (http://localhost:3000/books/:id).
+- Add New Book component (http://localhost:3000/new-book) contains a form that allows the user to introduce new book information in order to update the server.
 
-### `npm test`
+- Each card has a delete button to erase the book card along with reviews. 
+- Each indivudual card has an edit button that allows to update the review.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Technologies used 
+- React 
+- Bootstrap
+- HTML
+- CSS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Resources 
+- Layout and design https://github.com/paulbosorogan/ph2project
+- Images from https://www.freepik.com/ uploaded on my profile of https://imgur.com
+- Youtube videos https://www.youtube.com/watch?v=TH0Amh9fHt4
+- Medium blogs https://dev.to/sampurna/creating-responsive-navbar-using-react-bootstrap-5ajg
