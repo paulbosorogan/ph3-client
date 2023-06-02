@@ -16,15 +16,16 @@ function BookCard({
     return(
         
         <div className="book-card">
-            
-            <img src={image} alt='book-cover'/>
-            <hr></hr>
+        <img src={image} alt='book-cover'/>
+        <hr></hr>
         <div className="book-info">
-            <h4>"{title}"</h4>
-            <p>By: <b>{author}</b></p>
+            <div className="card-info">
+            <h6><b>"{title}"</b></h6>
+            <p>By: {author}</p>
+            </div>
             <div className="actions">
         <NavLink to={`/books/${id}`}><p>See details</p></NavLink> 
-        <button className='trash-bttn'><span role="img" aria-label="delete" onClick={handleDelete}>🗑</span></button>
+        <button className='trash-bttn-card'><span role="img" aria-label="delete" onClick={handleDelete}>🗑</span></button>
           </div>
          </div>
         </div>
