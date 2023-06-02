@@ -24,7 +24,7 @@ function BookCard({
             <p>By: {author}</p>
             </div>
             <div className="actions">
-        <NavLink to={`/books/${id}`}><p>See details</p></NavLink> 
+        <NavLink to={`/books/${id}`}><p>Leave a note</p></NavLink> 
         <button className='trash-bttn-card'><span role="img" aria-label="delete" onClick={handleDelete}>🗑</span></button>
           </div>
          </div>
