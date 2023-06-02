@@ -10,8 +10,8 @@ function Navigation(){
                 <Navbar.Collapse id="navbarScroll">
                  <Nav>
                     <NavLink eventkey='1' as={Link} to='/'>Home</NavLink>
-                    <NavLink eventkey='2' as={Link} to='/books'>Books</NavLink>
-                    <NavLink eventkey='3' as={Link} to='/new-book'>Add new book</NavLink>
+                    <NavLink eventkey='2' as={Link} to='/books'>Book collection</NavLink>
+                    <NavLink eventkey='3' as={Link} to='/new-book'>Add a new book</NavLink>
                  </Nav>
                 </Navbar.Collapse>
             </Navbar>
